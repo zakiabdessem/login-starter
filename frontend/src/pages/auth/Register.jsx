@@ -25,7 +25,7 @@ export default function Register() {
       if (response.status === 200) navigate("/");
     } catch (e) {
       if (e.response) setError(e.response.data.error);
-      else console.log(e);
+     // else console.log(e);
     }
   };
 

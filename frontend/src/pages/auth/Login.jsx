@@ -25,7 +25,7 @@ export default function Login() {
       navigate("/");
     } catch (e) {
       if (e.response) setError(e.response.data.error);
-      else console.log(e);
+      //else console.log(e);
     }
   };
 
